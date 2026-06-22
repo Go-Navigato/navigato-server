@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 3001;
 const API_KEY = process.env.ANTHROPIC_API_KEY;
 const SESSION_PIN = process.env.SESSION_PIN || "navigato";
 const ANTHROPIC_URL = "https://api.anthropic.com/v1/messages";
-const MODEL = "claude-sonnet-4-20250514";
+const MODEL = "claude-sonnet-4-6";
 
 // ── CORS ──────────────────────────────────────────────────────────────────────
 // In production, replace "*" with your actual Netlify URL
